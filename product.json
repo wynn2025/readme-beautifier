@@ -1,0 +1,21 @@
+{
+  "name": "GitHub README一键美化器",
+  "version": "1.0.0",
+  "description": "输入GitHub仓库URL，自动生成美观的README.md，包含徽章、目录结构、安装说明",
+  "price": 9.9,
+  "category": "开发工具",
+  "features": [
+    "零依赖 - 只需Node.js",
+    "自动提取repo描述、star数、语言、license",
+    "生成6种徽章（license/stars/forks/issues/commit/language）",
+    "自动检测语言生成对应安装说明",
+    "3种模板（标准/精简/完整）",
+    "支持GitHub PAT提高API限额"
+  ],
+  "files": [
+    "main.js",
+    "install.sh",
+    "README.md"
+  ],
+  "usage": "node main.js https://github.com/user/repo --output README.md"
+}
